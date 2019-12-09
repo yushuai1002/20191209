@@ -45,4 +45,6 @@ public class DeptController {
 		mod.addAttribute(list);
 		return "showDept";
 	}
+	
+	//新创建的
 }
