@@ -38,7 +38,7 @@ public class DeptController {
 		deptService.update(dept);
 		return "redirect:list.do";
 	}
-	
+	//
 	@RequestMapping("list")
 	public String findAll(Model mod) {
 		List<Dept> list = deptService.findAll();
