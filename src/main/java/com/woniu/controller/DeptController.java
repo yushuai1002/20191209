@@ -10,7 +10,7 @@ import com.woniu.service.DeptService;
 
 @Controller
 public class DeptController {
-
+ 
 	@Autowired
 	private DeptService deptService;
 	
@@ -45,6 +45,4 @@ public class DeptController {
 		mod.addAttribute(list);
 		return "showDept";
 	}
-	
-	//新创建的
 }
