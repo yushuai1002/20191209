@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.woniu.entity.Dept;
 import com.woniu.service.DeptService;
-
+//这是我的第四次修改
 @Controller
 public class DeptController {
  
@@ -38,7 +38,7 @@ public class DeptController {
 		deptService.update(dept);
 		return "redirect:list.do";
 	}
-	//
+	
 	@RequestMapping("list")
 	public String findAll(Model mod) {
 		List<Dept> list = deptService.findAll();
